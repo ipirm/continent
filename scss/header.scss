@@ -1,0 +1,59 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.header {
+	background-color: #fff;
+	height: 76px;
+
+	.container-fluid {
+		height: 100%;
+
+		.row {
+			height: 100%;
+		}
+	}
+
+	&-list {
+		display: flex;
+		list-style: none;
+		margin-bottom: 0;
+		justify-content: space-around;
+		align-items: center;
+		height: 100%;
+		padding-right: 60px;
+
+		li {
+			a {
+				font-size: 20px;
+				line-height: 26px;
+				color: #595555;
+
+
+			}
+		}
+	}
+}
+.logo-img{
+    position: relative;
+    z-index: 100;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    background-image: url(../img/Union.png);
+    width: 429px;
+    background-repeat: no-repeat;
+    height: 276px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	svg{
+		position: relative;
+		top: -25px;
+	}
+}
